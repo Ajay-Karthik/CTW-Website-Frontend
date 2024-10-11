@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTW Verification</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo"><img src="img/logo.png" alt="CleartoWork" style="width: 80%;" /></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="cta">Try Demo</a>
+        </div>
+    </header>
+
+    <!-- Main content starts -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <!-- Left Column: Text -->
+                    <div class="hero-text">
+                        <h1>Automate Your <br><span style="color: #40B55C;">Image Verification</span> with
+                            Machine Learning</h1>
+                        <p>Harness the power of deep learning to detect objects, faces, text, and more.</p>
+                        <div class="hero-button">
+                            <a href="#" class="cta">Launch Demo</a>
+                            <a href="#" class="cta-sec">Contact us</a>
+                        </div>
+                    </div>
+                    <!-- Right Column: Image -->
+                    <div class="hero-image">
+                        <img src="img/mock.png" alt="AI Image Analysis" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="container">
+                <h2>Upload, Analyze, and Get Instant Insights<br> – It's That Simple!</h2>
+                <div class="steps">
+                    <div class="step">
+                        <img src="icons/gallery-add.png" alt="Upload Your Image" class="icon">
+                        <h3>Upload Your Image</h3>
+                        <p>Start by selecting the image you want to analyze. Our platform supports multiple formats like
+                            PNG and JPEG</p>
+                    </div>
+                    <div class="step">
+                        <img src="icons/magicpen.png" alt="Choose Your Analysis" class="icon">
+                        <h3>Choose Your Analysis</h3>
+                        <p>Select from a range of AI-powered analysis options, Our deep learning algorithms work in real
+                            time to deliver accurate results</p>
+                    </div>
+                    <div class="step">
+                        <img src="icons/timer.png" alt="Get Instant Results" class="icon">
+                        <h3>Get Instant Results</h3>
+                        <p>Within seconds, view the analysis results with confidence scores. Our system provides fast,
+                            actionable insights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demo Section -->
+        <section class="demo-section">
+            <div class="container">
+                <h2>Explore Our AI-Powered Demos</h2>
+                <div class="demo-grid">
+                    <!-- Demo Cards -->
+                    <div class="demo-card">
+                        <img src="img/img3.png" alt="Demo Image" class="card-image">
+                        <div class="demo-text">
+                            <h3>Object and Scene Detection</h3>
+                            <p>Detect any object in a scene with precision.</p>
+                            <a href="#" class="demo-button">Launch Demo</a>
+                        </div>
+                    </div>
+                    <div class="demo-card">
+                        <img src="img/img2.png" alt="Demo Image" class="card-image">
+                        <div class="demo-text">
+                            <h3>Facial Analysis</h3>
+                            <p>Detect facial patterns with our advanced algorithm.</p>
+                            <a href="#" class="demo-button">Launch Demo</a>
+                        </div>
+                    </div>
+                    <div class="demo-card">
+                        <img src="img/img1.png" alt="Demo Image" class="card-image">
+                        <div class="demo-text">
+                            <h3>Celebrity Recognition</h3>
+                            <p>Identify famous faces quickly and accurately.</p>
+                            <a href="#" class="demo-button">Launch Demo</a>
+                        </div>
+                    </div>
+                    <div class="demo-card">
+                        <img src="img/img4.png" alt="Demo Image" class="card-image">
+                        <div class="demo-text">
+                            <h3>Face Comparison</h3>
+                            <p>Compare faces and find yourself in a picture.</p>
+                            <a href="#" class="demo-button">Launch Demo</a>
+                        </div>
+                    </div>
+                    <div class="demo-card">
+                        <img src="img/img5.png" alt="Demo Image" class="card-image">
+                        <div class="demo-text">
+                            <h3>Image Moderation</h3>
+                            <p>Hide sensitive content using our moderation tool.</p>
+                            <a href="#" class="demo-button">Launch Demo</a>
+                        </div>
+                    </div>
+                    <div class="demo-card">
+                        <img src="img/img6.png" alt="Demo Image" class="card-image">
+                        <div class="demo-text">
+                            <h3>Text in Image</h3>
+                            <p>Extract text from images, even rotated or skewed.</p>
+                            <a href="#" class="demo-button">Launch Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Features Section -->
+        <!-- <section class="features">
+            <div class="container">
+                <h2>CTW Verification Features</h2>
+                <div class="features-grid">
+                    <ul>
+                        <li>Face Recognition: Detect up to 100 faces in an image.</li>
+                        <li>Face Comparison: Compare up to 15 detected faces.</li>
+                        <li>Text Detection: Detect text rotated by -90 to +90 degrees.</li>
+                        <li>Confidence Score: Adjust probability of a prediction.</li>
+                        <li>Max Image Size: 15MB (stored as Amazon S3 object).</li>
+                        <li>Min Image Size: 80px (height & width).</li>
+                    </ul>
+                    <ul>
+                        <li>Text Detection: Detect up to 50 words in an image.</li>
+                        <li>Min Face Size: 40x40 pixels in 1920x1080 images.</li>
+                        <li>Supported Formats: PNG, JPEG.</li>
+                        <li>Real-time Processing: Instant image verification.</li>
+                    </ul>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Pricing Section -->
+        <section class="pricing">
+            <div class="container">
+                <h2>Pricing</h2>
+                <p>$1 per 1000 images</p>
+                <p>Free Tier: Up to 5,000 images/month during the first year.</p>
+                <p>Pay as You Go Model</p>
+            </div>
+        </section>
+    </main>
+    <!-- Main content ends -->
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>© 2024 CTW Verification. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
